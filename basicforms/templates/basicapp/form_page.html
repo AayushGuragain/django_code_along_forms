@@ -10,7 +10,7 @@
     <h1>Fill out the form!</h1>
     <div class="container">
       <form method="POST">
-        {{form_key.as_p}}
+        {{form_key.as_p}} <!-- as paragraph -->
         {% csrf_token %}
         <input type="submit" name="btn btn-primary" value="Submit">
       </form>
